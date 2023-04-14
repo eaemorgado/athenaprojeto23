@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+  /* --PARTE SUPERIOR-- */
+
+body {
+    background-color: #efefef;
+}
+
+header {
+    background-color: #5B028E;
+    margin: 0;
+    height: 65px;
+    
+}
+
+#icon {
+    position: relative;
+    margin-left: 7%;
+    float: right;
+    margin: 18px;
+    
+    
+}
+
+ #v-menu {
+   margin: 0px;
+   font-family: 'Outfit', sans-serif;
+   min-width: 100%;
+   
+   
+
+
+}
+
+#v-menu ul{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 18px;
+    height: 46.8px;
+    
+}
+
+#v-menu li {
+    /* float: left; */
+    
+    
+}
+
+#v-menu li a {
+    display: block;
+    color: black;
+    width: 100%;
+    padding: 14px 10.6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+#v-menu li a:hover {
+    border-bottom: 4px solid #5B028E;
+    }
+
+    
+
+.menu .menu-lines {
+    position: absolute;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+}
+
+.menu .menu-lines span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #fa0000;
+    border-radius: 3px;    
+}
+
+
+/* Corpo da Pagina */
+
+body main h3 {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: 600;
+}
